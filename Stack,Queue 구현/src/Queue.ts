@@ -12,3 +12,6 @@ class Queue<T> {
 
 const numberQueue = new Queue<number>();
 const stringQueue = new Queue<string>();
+
+numberQueue.push(1);
+stringStack.push("a");
