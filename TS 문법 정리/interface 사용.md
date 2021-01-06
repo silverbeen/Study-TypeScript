@@ -170,5 +170,50 @@ let mySquare = createSquare({color: "black"});
 # 읽기 전용 프로퍼티
 
 - 일부 프로퍼티들은 **객체가 처음 생성 될 때만 수정 가능**
+
+
+
 -  프로퍼티 이름 앞에 `readonly`를 넣어서 이를 지정
 
+```typescript
+interface Point{
+    readonly x: number;
+    readonly y : number;
+}
+```
+
+
+
+- 객체 리터럴 할당하여 ` Point` 생성, 할당 한 후 x, y 수정 불가능
+
+```typescript
+let p1: Point = {x:10, y :20};
+p1.x = 5; // 읽기 전용 속성이므로 x 수정 불가능
+```
+
+
+
+- TS  에서는 모든 변경 메서드가 제거된 ` Array<T>` 와 동일한 `ReadonlyArray<T>` 타입을 제공하여 생성 후 배열을 변경하지 않음
+
+```typescript
+let a: number[] = [1,2,3,4];
+let ro: ReadonlyArray<number> = a;
+ro[0] = 12; //에러
+ro.push(5); //에러
+ro.length = 100; //에러
+a = ro; // 에러
+```
+
+예제 마지막 줄에서 `ReadonlyArray`를 일반 배열에 재할당이 불가능한 것
+
+하지만 타입 단언으로 오버라이드 하는것은 가능
+
+```typescript
+a = ro as number[]; //가능
+```
+
+
+
+## readonly VS const
+
+**변수는 const 사용 프로퍼티는  readonly 사용**
