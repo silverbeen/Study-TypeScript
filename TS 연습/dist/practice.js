@@ -55,8 +55,8 @@ var Circle = /** @class */ (function () {
     return Circle;
 }());
 var Rectangle = /** @class */ (function () {
-    function Rectangle(widht, height) {
-        this.width = widht;
+    function Rectangle(width, height) {
+        this.width = width;
         this.height = height;
     }
     Rectangle.prototype.getArea = function () {
@@ -64,6 +64,10 @@ var Rectangle = /** @class */ (function () {
     };
     return Rectangle;
 }());
+var circle = new Circle(5);
+var rectangle = new Rectangle(10, 5);
+console.log(circle.radius); // 작동
+console.log(rectangle.width); //width 가 private 이기 때문에 에러 발생
 var shapes = [new Circle(5), new Rectangle(10, 5)];
 shapes.forEach(function (shape) {
     console.log(shape.getArea());

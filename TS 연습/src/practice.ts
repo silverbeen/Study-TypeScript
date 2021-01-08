@@ -71,8 +71,8 @@ class Rectangle implements Shape{
 	width : number;
 	height : number;
 
-	constructor(widht: number, height: number) {
-		this.width = widht;
+	constructor( width: number, height: number) {
+		this.width = width;
 		this.height = height;
 	}
 	getArea(){
@@ -84,7 +84,7 @@ const circle = new Circle(5);
 const rectangle = new Rectangle(10, 5);
 
 console.log(circle.radius); // 작동
-console.log(rectangle.width);//width  가 private 이기 때문에 에러 발생
+console.log(rectangle.width);//width 가 private 이기 때문에 에러 발생
 
 
 const shapes: Shape[] = [new Circle(5), new Rectangle(10, 5)];
