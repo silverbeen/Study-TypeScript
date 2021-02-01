@@ -1,4 +1,4 @@
-interface Person {
+/* interface Person {
   name: string;
   //물음표가 들어갔다는 것은, 설정을 해도 되고 안해도 되는 값
   age?: number;
@@ -19,4 +19,4 @@ const expert: Developer = {
   skills: ["react", "JS"],
 };
 
-const people : Person[] = [person, expert];
+const people : Person[] = [person, expert]; */
