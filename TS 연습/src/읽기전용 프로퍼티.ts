@@ -1,4 +1,4 @@
-interface Point{
+/* interface Point{
     readonly x: number;
     readonly y : number;
 }
@@ -13,3 +13,4 @@ ro.length = 100; //에러
 a = ro; // 에러
 
 a = ro as number[]; //가능
+ */
