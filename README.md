@@ -27,7 +27,7 @@ npm install --save-dev typescript
 ### styled-component 설치
 
 ```
-npm i styled-components
+npm i --save-dev @types/styled-components
 ```
 
 설치 후  `package.json`에 `styled-components`가 추가된 것을 확인!!
