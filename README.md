@@ -1,4 +1,4 @@
-# Create React App과 함께 타입스크립트 사용
+### Create React App과 함께 타입스크립트 사용
 
 ```
 npx create-react-app my-app --template typescript
@@ -8,7 +8,7 @@ npx create-react-app my-app --template typescript
 
 
 
-# 기존 Create React App 프로젝트에 추가 하려면?
+### 기존 Create React App 프로젝트에 추가 하려면?
 
 1. 타입 정의 파일을 다운받는다.
 ```
@@ -19,6 +19,9 @@ npm install --save @types/react @types/react-dom
 ```
 npm install --save-dev typescript
 ```
+
+
+
 
 
 ### styled-component 설치
