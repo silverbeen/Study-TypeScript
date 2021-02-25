@@ -44,9 +44,47 @@ const MouseWrapper = styled.div`
     background-color: black;
     border-radius: 80%;
     position: absolute;
+    left: 580px;
     margin-right: 90px;
     margin-bottom: 350px;
   }
+
+  #lion-left {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 80%;
+    position: absolute;
+    top: 320px;
+    right: 767px;
+  }
+  
+  #lion-right {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 80%;
+    position: absolute;
+    top: 320px;
+    right: 650px;
+  }
 `;
 
-export { MainWrapper, MouseWrapper };
+const Circle = styled.div`
+  width: 700px;
+  height: 625px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  opacity: 0.9;
+  transition: 5s;
+  overflow: hidden;
+
+  div {
+    width: 80px;
+    height: 250px;
+    border-radius: 10px;
+  }
+`;
+
+export { MainWrapper, MouseWrapper, Circle };
