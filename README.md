@@ -78,7 +78,7 @@ css와 사용법은 거의 동일하지만, css에서 지원하지않는 변수�
 
 
 ```
-npm install react-router-dom --save
+npm i --save-dev @types/react-router-dom
 ```
 
 설치 후  `package.json`에 `styled-components`가 추가된 것을 확인!!
