@@ -1,5 +1,4 @@
 import * as CryptoJS from "crypto-js";
-import { TypeFormatFlags } from "typescript";
 
 class Block {
   static calculateBlockHash = (
