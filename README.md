@@ -4,6 +4,11 @@
 npx create-react-app my-app --template typescript
 ```
 
+## 만약 타입스크립트 react 오류가 난다면?
+
+```
+npm install —save @type/react
+```
 
 
 
