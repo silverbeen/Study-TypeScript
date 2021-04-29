@@ -70,6 +70,12 @@ css와 사용법은 거의 동일하지만, css에서 지원하지않는 변수�
 
 
 
+### redux 설치
+
+```
+yarn add redux react-redux @types/react-redux
+```
+
 
 
 
