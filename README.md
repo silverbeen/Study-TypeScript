@@ -27,8 +27,6 @@ npm install --save-dev typescript
 
 
 
-
-
 ### styled-component 설치
 
 ```
