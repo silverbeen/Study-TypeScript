@@ -17,6 +17,8 @@ export const HeaderSub = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 15px;
+  width: 10%;
 
   .font-bold {
     font-size: 20px;
