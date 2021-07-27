@@ -46,6 +46,7 @@ const StudentList = () => {
       tenState: "string",
     },
   ];
+  
   return (
     <S.StudentWrapper>
       <S.HeaderBar>

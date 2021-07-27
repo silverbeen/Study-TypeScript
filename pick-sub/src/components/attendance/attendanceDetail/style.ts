@@ -56,6 +56,7 @@ export const StudentWrapper = styled.div`
 `;
 
 export const HeaderBar = styled.ul`
+  margin-top: 5px;
   width: 90%;
   height: 5%;
   border-bottom: 1px solid black;
