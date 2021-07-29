@@ -15,7 +15,7 @@ type ObjectIndexType = {
 };
 
 const TodoList: React.FC<IProps> = ({ todos }) => {
-  const getTodoColorNums = useCallback(() => {
+  /* const getTodoColorNums = useCallback(() => {
     let red = 0;
     let orange = 0;
     let yellow = 0;
@@ -71,7 +71,7 @@ const TodoList: React.FC<IProps> = ({ todos }) => {
   }, [todos]);
 
   console.log(todoColorNums2);
-
+ */
   return (
     <S.Container>
       <Header />
@@ -79,12 +79,12 @@ const TodoList: React.FC<IProps> = ({ todos }) => {
         <h4> 남은 TODO {todos.length}개</h4>
       </S.TodoHeader>
       <S.Colors>
-        {Object.keys(todoColorNums).map((color, index) => {
+        {/* {Object.keys(todoColorNums).map((color, index) => {
           <div key={index}>
             <div className="color-radius" color={color}></div>
             <span>{color}개</span>
           </div>;
-        })}
+        })} */}
       </S.Colors>
       <S.TodoList>
         {todos.map((todo, index) => {

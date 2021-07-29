@@ -1,6 +1,5 @@
 import axios from "axios";
 import { GetServerSideProps, NextPage } from "next";
-import { useEffect } from "react";
 import { TodoType } from "../types/todo";
 import TodoList from "./components/list/TodoList";
 import { fetchTodo } from "./lib/api/todos";

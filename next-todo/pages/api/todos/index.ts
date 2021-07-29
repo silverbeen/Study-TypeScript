@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { resolve } from "path/posix";
-import { TodoType } from "../../types/todo";
+import { TodoType } from "../../../types/todo";
 import File from "../data/todos.json";
 
 // api/todos 경로로 api 여청이 되면 "hello next"
