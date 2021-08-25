@@ -127,6 +127,12 @@ return (
 npm install axios
 ```
 
+### react-query 설치
+
+```
+npm i -D react-query
+```
+
 
 
 사용법)
